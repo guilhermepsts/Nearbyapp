@@ -8,11 +8,11 @@ export function Steps(){
     <View style={s.container}>
       <Text style={s.title}>Veja Como funciona:</Text>
 
-      {/* <Step icon={IconMapPin} title="Encontre estabelecimentos" description="Veja locais pertos de você que são parceiros Nearby!"/>
+      <Step icon={IconMapPin} title="Encontre estabelecimentos" description="Veja locais pertos de você que são parceiros Nearby!"/>
 
-      <Step icon={IconMapPin} title="Ative o cupom com QR Code" description="Escaneie o código no estabelecimento para usar o benefício."/>
+      <Step icon={IconQrcode} title="Ative o cupom com QR Code" description="Escaneie o código no estabelecimento para usar o benefício."/>
 
-      <Step icon={IconMapPin} title="Garante vantagens perto de você!" description="Ative cupons aonde estiver, em diferentes tipos de estabelecimento"/> */}
+      <Step icon={IconTicket} title="Garante vantagens perto de você!" description="Ative cupons aonde estiver, em diferentes tipos de estabelecimento"/>
     </View>
   )
 }
